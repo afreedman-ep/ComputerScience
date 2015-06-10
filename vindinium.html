@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+           <title>Everest Computer Science Expedition: A Guide to Computer Programming</title>
+           <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+           <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'/>
+           <link href='http://fonts.googleapis.com/css?family=Sarpanch:400,700' rel='stylesheet' type='text/css'>
+           <link href='http://fonts.googleapis.com/css?family=Geo' rel='stylesheet' type='text/css'>
+           <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+           <link href='http://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
+        </head>
+        <body>
+            <div id="background">
+                <div id="header">
+                  <div id="titleofwebsite">
+                    <p class="titleofwebsite"><strong>Computer Science Expedition:</strong></p> <p class="titleofwebsite"><strong>A Guide to Computer Programming</strong></p>
+                  </div>
+                </div>
+                <div id="navbarbox">
+                  <ul id=navbar>
+                    <li class="navbar"><a href="index.html">Home</a></li>
+                    <li class="navbar"><a href="about.html">About Me</a></li>
+                    <!--<li class="navbar"><a href="html.html">HTML</a></li>-->
+                    <!--<li class="navbar"><a href="hardware.html">Hardware</a></li>-->
+                    <li class="navbar"><a href="calculator.html">Calculator</a></li>
+                    <li class="navbar"><a href="tilegame.html">Tile Game</a></li>
+                    <li class="navbar"><a href="bsgflier.html">BSG Flier</a></li>
+                    <li class="navbar"><a href="vindinium.html" id="currenttab">Vindinium</a></li>
+                  </ul>
+                </div>
+                <div id="pageinfobox">
+                  <p id="infotext"><img src="http://www.everestepo.org/_/rsrc/1343187247389/config/summit.png" id="welcomeeverestpicture" style=width:150px;height170px;></p>
+                </div>
+                <div id="contentbox">
+                  <h2 class="content">What is Vindinium? - An artificial intelligence programming challenge</h2>
+                  <div id="vindiniumPictureDiv"><p id ="vindiniumPicture" class="content"><img src="vindiniumPreview" style=width:300px;height:300px></p></div>
+                  <div id="vindiniumSummary" class="content"><h3>Summary</h3>Vindinium is a multi-player turn-based game where participants compete to amass gold. Each player is in control of a "hero" or bot that will fight others in a real-time arena.</div>
+                  <div id="vindiniumObjective" class="content"><h3>Objective and Rules</h3><p>The goal of the game is to have your bot amass the largest quantity of gold within the predetermined 1200 turns. To collect gold your bot must claim mines either by attacking a mine or killing another player (the mines of the murdered player become your own). Your bot must periodically go to a tavern to restore its health; exchanging 2 gold results in a life points increase of 50. Note that claiming mines and attacking other players reduces your life points by 20 upon each occurance; your health also drops by one point each turn.</p></div>
+                  <div id="vindiniumMeetStormageddon" class="content"><h3>Meet Stormageddon!</h3>Stormageddon is my fantastic bot (he needs a lot of encouragement) that makes decisions as to what actions to perform based on feedback from the game (as opposed to player imputs).</div>
+                  <div id="howStormageddonWorks" class="content"><h3>How Stormageddon Works</h3></div>
+                  <div id="howStormageddonWorksBasic" class="content"><p>Stormageddon performs two basic tasks: to find a tavern and to claim mines.</p></div>
+                  <div id="vindiniumCode1Div" class="content"><img src="vindiniumCode1.png" style=width:50;height:100></div>
+                  <div id="vindiniumCode1Explanation" class="content"><p>If the task is (===) "findTavern" the phrase "Going to a Tavern" will be printed on the console and it sets the direction of the bot to a path between its current positon and the closest tavern. The claimMines task functions in a similar fashion.</p><p>The above if statement checks to see if a task is assigned to be a specific phrase, but the bot's decision to assign a phrase to a task is based on a different if statment.</p></div>
+                  <div id="vindiniumCode2Div" class="content"><img src="vindiniumCode2.png" style=width:500;height:110></div>
+                </div>
+            </div>    
+        </body>
+    </html>

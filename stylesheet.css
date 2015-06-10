@@ -1,0 +1,475 @@
+/*UNIVERSAL*/
+    body {
+      background-image: url("http://p1.pichost.me/640/48/1712836.jpg");
+      font-family: Abel;
+      color: white;
+    }
+
+    #background {
+      background-color: rgb(34, 96, 112);
+      background-color: rgba(34, 96, 112, 0.7);
+      width: 1000px;
+      height: 1500px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+    }
+
+    #header { 
+      border-radius:1px;
+      position:relative;
+      height: 110px;
+      border-radius: 10px;
+    }
+
+    .titleofwebsite{
+      color: white;
+      font-family: Orbitron;
+      font-size: 35px;
+      text-align: center;
+      margin: 0px;
+      vertical-align: central;
+    }
+
+    #titleofwebsite {
+      top:20px;
+      position:relative;
+    }
+
+    #navbarbox{
+      background-color: #003333;
+    }
+
+
+    #navbar /*this is the ul*/{
+      margin-top:0px;
+    }
+
+    .navbar /*these are the ul list items */ {
+      display:inline;
+      padding: 4%;
+      font-size: 17px;
+    }
+
+    a {
+      color:#ff9c00;
+      text-decoration:none;
+    }
+
+    a:hover {
+      /*color:#66E0FF;*/
+      color: #ff9c00;
+    }
+
+    a:visited {
+      color:#ff9c00;
+    }
+
+    #currenttab{
+      color: #e5b700;
+    }
+
+    #pageinfobox {
+      height:200px;
+      width: 175px;
+      background-color: #2182A3;
+      margin-left:20px;
+      margin-right: 8px;
+      margin-top: 0px;
+      border-radius: 10px;
+      position: fixed;
+    }
+
+    .infotext {
+      margin-left:10px;
+    }
+
+    #contentbox {
+      background-color: #2182A3;
+      width: 775px;
+      float: right;
+      margin-right: 15px;
+      margin-left: 8px;
+      border-radius: 10px;
+    }
+
+    .content {
+      margin:20px;
+    }
+
+/*HOME PAGE SPECIFIC*/
+    #welcomeeverestpicture {
+      margin-left: auto;
+      margin-right: auto;
+      height:170px;
+      width:150px;
+      display: block;
+    }
+
+    #contenttitlebackground {
+      background-color: #e5b700;
+      margin-top: 15px;
+      height: 40px;
+    }
+
+    #contenttitle {
+      text-align: center;
+      font-family: Orbitron;
+      font-size: 25px;
+      top:10px;
+      position: relative;
+    }
+    
+    #schedule {
+        /*display:inline-block;*/
+        float: left;
+    }
+
+    #adjacentToSchedule {
+/*         display:inline-block; */
+        
+        /*vertical-align: middle;*/
+        /*background-image: url("http://www.b2bweb.fr/wp-content/uploads/js-logo-badge-512.png");*/
+    }
+    
+    #indexPicture {
+        margin-top: 50px;
+    }
+
+/*ABOUT ME PAGE SPECIFIC*/
+    #tabletext {
+      width: 600px;
+    }
+
+    .favorites {
+      display:inline;
+      font-family:Orbitron;
+    }
+
+    table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+/*.codebox {
+  background-color:#141a14;
+  color:gray;
+  margin:10px;
+  line-height: 1;
+}
+
+#code2 {
+  text-indent: 50px;
+}
+
+#code3 {
+  text-indent: 100px;
+}
+
+#code4 {
+  text-indent: 150px;
+}*/
+
+/*CALCULATOR PAGE SPECIFIC*/
+    #calculatorPadding{
+        padding: 10px
+    }
+
+    #display{
+        width:215px;
+        height: 50px;
+        border: 3px solid black;
+        margin-bottom: 5px;
+        text-align:right;
+        background-color:  #DFDFDF;
+    }
+
+    #Calculator{
+      background-color:#4F4E4E;
+      padding: 10px;
+      width: 280px;
+    }
+
+    .row{
+
+    }
+
+    .button{
+        background-color: black;
+        display:inline-block;
+        height: 50px;
+        width: 50px;
+        border: 1px solid black;
+        text-align:center;
+        transition: all 0.5s ease;
+        color: white;
+      margin-top: 10px;
+    }
+
+    .button:hover{
+        background-color: #FFC622;
+    }
+
+    .opp{
+        background-color: #FFC622;
+        color:black;
+    }
+
+/*TILE GAME PAGE SPECIFIC*/  
+    #container div{
+      height: 100px;
+      width: 100px;
+      display: inline-block;
+    }
+    #container{
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+    }
+    .tile{
+      /*float: left;*/
+      /*background-color: red;*/
+      border: 2px solid white;
+      /*z-index: -1*/
+      -webkit-transform: rotateY(-180deg);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      transition: all 1.5s ease;
+      background-size: 100%;
+    }
+    .stone{
+      background-image: url("http://cdnpix.com/show/imgs/57f3692444cf1ff8845bcacb354de602.jpg")
+    }
+
+    .mirror{
+      background-image: url("http://hpearth.com/books/book1/images/_ss12.jpg")
+    }
+    .hat{
+      background-image: url("https://s-media-cache-ak0.pinimg.com/236x/2f/62/1e/2f621e0c638fb8992bedcaa4cf2b4a8a.jpg");
+
+    }
+    .baby{
+      background-image: url("http://images6.fanpop.com/image/photos/32300000/Chapter-art-the-sorcerers-stone-32317537-600-516.jpg");
+    }
+    .fluffy{
+      background-image: url("http://i1129.photobucket.com/albums/m515/hpcelebration/Fluffy.jpg")
+    }
+    .phoenix{
+      background-image: url("http://th09.deviantart.net/fs70/PRE/f/2012/029/0/2/phoenix_by_sandara-d4o2ewx.jpg")
+    }
+
+    .acromantula{
+      background-image: url("http://3.bp.blogspot.com/-TweCVb1SXQk/T6KQVeI1KtI/AAAAAAAAABU/ZjLjtOKOrNI/s320/Acromntula.jpg");
+    }
+
+    .dobby{
+      background-image: url("http://fc04.deviantart.net/fs71/i/2013/234/3/f/2008__dobby_the_house_elf_by_queenofcostumes-d1cti99.jpg");
+    }
+
+    .myrtle{
+      background-image: url("http://img1.wikia.nocookie.net/__cb20090822190117/harrypotter/images/thumb/4/4e/Myrtle6.PNG/500px-Myrtle6.PNG");
+    }
+    .willow{
+      background-image: url("http://img2.wikia.nocookie.net/__cb20130217140119/harrypotter/images/2/26/Whomping_Willow_Pottermore.png");
+    }
+
+    .car{
+      background-image: url("http://vignette1.wikia.nocookie.net/harrypotter/images/d/dd/Ford-park.jpg/revision/latest?cb=20090426125128");
+    }
+
+    .basilisk{
+      background-image: url("http://fc09.deviantart.net/fs70/f/2013/143/a/5/snake_by_ketka_by_ketka-d6693jt.jpg")
+    }
+
+
+    .hippogriff{
+      background-image: url("http://aforanything.com/wp-content/uploads/2013/06/harrypotterandpoa5.jpg")
+    }
+
+    .map{
+      background-image: url("http://s2.cdn.memeburn.com/wp-content/uploads/marauders-map1.jpg");
+    }
+
+    .dementor{
+      background-image: url("http://fc05.deviantart.net/fs71/i/2011/151/c/3/dementor_by_liga_marta-d32wuz5.jpg");
+    }
+
+    .cadogan{
+      background-image: url("http://img4.wikia.nocookie.net/__cb20120810175807/harrypotter/pl/images/4/45/43143-26301.gif");
+    }
+
+    .dog{
+      background-image: url("http://sites.psu.edu/potterheadsforlife/wp-content/uploads/sites/1327/2013/04/Reg.10226.16.jpg");
+    }
+
+    .monsterBookOfMonsters{
+      background-image: url("https://c1.staticflickr.com/5/4006/4647451125_05fd73f978_z.jpg");
+    }
+
+    .grim{
+      background-image: url("http://i.imgur.com/VhMhhz6.jpg");
+    }
+
+    .boggart{
+      background-image: url("http://images4.fanpop.com/image/answers/274000/274794_1311712503065_300_314.jpg");
+    }
+
+    .fatLady{
+      background-image: url("https://pbs.twimg.com/media/Bzp6bbBIcAAeQTx.jpg");
+    }
+
+    .scabbers{
+      background-image: url("http://img1.wikia.nocookie.net/__cb20110805002610/harrypotter/images/5/52/Scabbers_hppoa.jpg");
+    }
+
+    .timeTurner{
+      background-image: url("http://fc01.deviantart.net/fs36/i/2010/225/0/1/Time_Turner_by_Miridiusart.jpg");
+    }
+
+    .patronus{
+      background-image: url("http://vignette3.wikia.nocookie.net/harrypotter/images/8/83/Harry_Potters'_Patronus.jpg/revision/latest?cb=20070114012414");
+    }
+
+    .auntMarge{
+      background-image: url("http://image.guardian.co.uk/sys-images/Film/Pix/gallery/2004/05/19/marge3.jpg");
+    }
+    .diary{
+      background-image: url("http://www.hp-lexicon.org/images/chapters/cs/c17--the-heir-of-slytherin.jpg")
+    }
+    .gobletOfFire{
+      background-image: url("http://thehogshead.org/wp-content/uploads/2008/08/agoblet.jpg")
+    }
+
+    .triwizardCup{
+      background-image: url("http://images.wikia.com/harrypotter/images/8/8f/Triwizard_Cup.jpg");
+    }
+
+    .hungarianHorntail{
+      background-image: url("http://kaiju.wdfiles.com/local--files/wiki:hungarian-horntail/hungarian_horntail_2005_01.jpg");
+    }
+
+    .madEye{
+      background-image: url("http://news.bbc.co.uk/nol/shared/spl/hi/pop_ups/05/entertainment_goblet_of_fire/img/3.jpg");
+    }
+
+    .beauxbaton{
+      background-image: url("http://diannethegeek.com/beauxbaton/beauxbaton20.jpg");
+    }
+
+    .mermaid{
+      background-image: url("http://vignette3.wikia.nocookie.net/harrypotter/images/4/4b/C.jpg/revision/latest?cb=20071224150938");
+    }
+
+    .egg{
+      background-image: url("http://img3.wikia.nocookie.net/__cb20090216094031/harrypotter/images/3/3e/The_Golden_Dragon_Egg_01.jpg");
+    }
+
+    .ferret{
+      background-image: url("http://fc09.deviantart.net/fs70/f/2010/336/f/9/draco_malfoy_the_ferret_by_twistersky-d343fno.jpg");
+    }
+
+    .ritaSkeeter{
+      background-image: url("https://pbs.twimg.com/profile_images/1740692045/image.jpg");
+    }
+
+    .mark{
+      background-image: url("http://i.ytimg.com/vi/qx3krsbmAtI/hqdefault.jpg");
+    }
+
+    .durmstrang{
+      background-image: url("http://www.harrymedia.com/img/data/media/130/krumkarkaroff.jpg");
+    }
+
+    .wormtail{
+      background-image: url("http://fangirlsarewe.files.wordpress.com/2013/09/peter_pettigrew_holding_voldemorts_rudimentary_body.jpg");
+    }
+
+    .deadDiggory{
+      background-image: url("http://i.imgur.com/7IGFOcc.png");
+    }
+
+    .maze{
+      background-image: url("http://img2.wikia.nocookie.net/__cb20091021091251/harrypotter/images/0/01/The_Maze_(Triwizard_Tournament_3rd_Task_Concept_Artwork).png");
+    }
+
+    .yuleBall{
+      background-image: url("http://images.sodahead.com/polls/000483023/polls_fleuryroger6to_3317_938348_poll_xlarge.jpeg");
+    }
+
+    .jr{
+      background-image: url("http://wiki.unknowableroom.org/images/8/81/Barty_Crouch,_Jr.7.jpg");
+    }
+
+    .gillyweed{
+      background-image: url("http://i.imgur.com/zrfTZOs.png");
+    }
+
+    .deathEater{
+      background-image: url("http://img2.wikia.nocookie.net/__cb20120205193619/harrypotter/images/7/77/Death-eater-mask.jpg");
+    }
+
+    .back{
+      /*background.image:*/
+      background-color: #72043E;
+      position: absolute;
+      z-index: 1;
+      -webkit-transform: rotateY(0deg);
+      -webkit-backface-visibility: hidden;
+      border: 2px solid white;
+      backface-visibility: hidden;
+      transition: all 1.5s ease;
+      background-image: url("http://fc06.deviantart.net/fs70/f/2014/162/6/a/pottermore___hogwarts_crest_by_chromomaniac-d7ly3tn.jpg");
+      background-size: 110%;
+    }
+    .flip .back {
+      -webkit-transform: rotateY(-180deg);
+      transition: all 1.5s ease;
+    }
+    .flip .tile {
+      -webkit-transform: rotateY(0deg);
+      transition: all 1.5s ease;
+    }
+    #GUI{
+      width: 325px;
+      height: 300px;
+      border: 3px solid black;
+      margin-left: 5%;
+      margin-right: 5%;
+      display: block;
+      font-family: 'Fontdiner Swanky', arial;
+      text-align: center;
+    }
+    #chamSec #GUI{
+      width: 402px;
+      height: 175px;
+    }
+    #prizAzk #GUI{
+      width: 502px;
+      height: 225px;
+    }
+    #gobFir #GUI{
+      width: 604px;
+      height: 100px;
+    }
+    a:link {
+      color: black;
+      font-weight: bold;
+      text-decoration:none
+    }
+    a:hover {
+      color: #ff9c00;
+    }
+    @font-face {
+        font-family: 'Potter';
+        src: url('ParryHotter.ttf')format('ttf');
+    }
+        
+/*VINDINIUM PAGE SPECIFIC*/
+    #vindiniumPictureDiv {
+        float: left;
+        
+    }
+
+    #vindiniumSummary {
+/*         float: right; */
+    }
