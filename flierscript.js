@@ -77,6 +77,11 @@ var cylon = {
     }
 };
 
+
+/* @Desc: 
+ * 
+ * 
+ */
 function Bullet (xPos, yPos, bulletColor, bulletDirection){
     this.xPos = xPos + 50;
     this.yPos = yPos + 35;
